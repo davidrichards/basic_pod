@@ -1,4 +1,4 @@
-class BasicPod < PodAgent::DSL
+class UserPod < PodAgent::DSL
 
   name "A Basic Pod"
 
