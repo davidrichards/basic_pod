@@ -12,8 +12,8 @@ class UserPod
   output "found?", "Did you find the string?"
   
   def snap
-    max = input_params[:max]
-    match = input_params[:match]
+    max = input_params["max"]
+    match = input_params["match"]
     length = match.length
     i = 0.0
 
