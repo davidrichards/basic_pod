@@ -34,7 +34,9 @@ class UserPod
     output
   end
   
-  CHARACTERS = ("a".."z").to_a + " "
+  characters = ("a".."z").to_a
+  characters << " "
+  CHARACTERS = characters
   CHARACTERS_LENGTH = 27
   
   def rand_char
