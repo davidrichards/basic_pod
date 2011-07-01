@@ -16,6 +16,7 @@ class UserPod
     match = input_params["match"]
     length = match.length
     i = 0.0
+    found = generate_string(length)
 
     until i >= max or found == match do
       found = generate_string(length)
