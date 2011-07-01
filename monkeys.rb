@@ -5,7 +5,6 @@ class UserPod
   description "It's been said that with enough monkey and enough typewriters, they would eventually punch out the complete works of Shakespeare by chance.  This pod does a very little part of that.  It randomly creates strings until it comes up with: to be or not to be"
   
   input "max", "Wait how many attempty until you give up?", 1.0e+28, numeric: true
-  input "max", "Wait how many attempty until you give up?", 10, numeric: true
   input "match", "What string are we trying to match?", "to be or not to be"
 
   output "n", "Number of tries"
